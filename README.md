@@ -47,6 +47,11 @@ families, SHAP for interpretability, K-Means for behavioral segmentation.
 (AES-128 + RSA-2048), digital signatures (SHA256withRSA), PKCS12 keystores.
 *Academic project, private repo.*
 
+**[Flipcard Memory Game](https://github.com/OJsan-ForReal/FLIPCARD_GAME)** —
+Browser-based memory/matching game, vanilla HTML/CSS/JS. Solo, 1v1, and
+trio multiplayer modes, timed play, and a Pokémon-themed skin.
+*Group project (3 members), FCUL — in development.*
+
 ## Stack
 
 **AI & LLMs** `OpenRouter` `OpenAI SDK` `SSE streaming` `model fallback chains`
