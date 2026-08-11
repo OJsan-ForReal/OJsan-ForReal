@@ -37,10 +37,11 @@ routing (OSRM/Nominatim), Stripe payments, deployed on GCP with an
 active/passive Nginx + keepalived (VRRP) setup for high availability.
 *Academic project, private repo.*
 
-**[Grade Prediction](https://github.com/OJsan-ForReal/REPO_NAME_AQUI)** —
+**[Grade Prediction](https://github.com/OJsan-ForReal/FAA-G22)** —
 Classification/regression pipelines (scikit-learn) predicting exam outcomes
 from behavioral data; compared 5 feature-selection methods across 5 model
 families, SHAP for interpretability, K-Means for behavioral segmentation.
+*Group project (3 members), FCUL.*
 
 **mySaude** — Secure file exchange, client/server in Java. Hybrid encryption
 (AES-128 + RSA-2048), digital signatures (SHA256withRSA), PKCS12 keystores.
