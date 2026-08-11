@@ -1,4 +1,4 @@
-<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OJsan Wu — full-stack &amp; AI engineer">
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ojie — full-stack &amp; AI engineer">
   <defs>
     <style>
       .bg { fill: #0f172a; }
@@ -7,7 +7,7 @@
       .underline {
         fill: none; stroke: #0eb5a3; stroke-width: 3; stroke-linecap: round;
         stroke-dasharray: 4 7;
-        stroke-dashoffset: 220;
+        stroke-dashoffset: 140;
         animation: draw 2.4s ease-out forwards;
       }
       .prompt { font-family: 'Cascadia Code', 'Fira Code', Consolas, monospace; font-size: 21px; fill: #0eb5a3; animation: blink 1s steps(1) infinite; }
@@ -38,8 +38,8 @@
     <rect class="bg" width="900" height="200" />
     <rect class="border" x="1" y="1" width="898" height="198" rx="13" />
 
-    <text class="name" x="40" y="72">OJsan Wu</text>
-    <path class="underline" d="M40 86 H 232" />
+    <text class="name" x="40" y="72">Ojie</text>
+    <path class="underline" d="M40 86 H 140" />
 
     <text class="prompt" x="41" y="128">&gt;</text>
     <g>

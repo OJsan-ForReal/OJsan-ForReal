@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" alt="OJsan Wu — full-stack & AI engineer" width="100%" />
+  <img src="./banner.svg" alt="Ojie — full-stack & AI engineer" width="100%" />
 </div>
 
 <br />
