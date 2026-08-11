@@ -1,0 +1,53 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Oujie Wu — full-stack &amp; AI engineer">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .border { fill: none; stroke: #0eb5a3; stroke-opacity: 0.35; stroke-width: 1.5; }
+      .name { font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 40px; font-weight: 700; fill: #f8fafc; }
+      .underline {
+        fill: none; stroke: #0eb5a3; stroke-width: 3; stroke-linecap: round;
+        stroke-dasharray: 4 7;
+        stroke-dashoffset: 220;
+        animation: draw 2.4s ease-out forwards;
+      }
+      .prompt { font-family: 'Cascadia Code', 'Fira Code', Consolas, monospace; font-size: 21px; fill: #0eb5a3; animation: blink 1s steps(1) infinite; }
+      .line { font-family: 'Cascadia Code', 'Fira Code', Consolas, monospace; font-size: 21px; fill: #cbd5e1; }
+      .l1 { animation: cycle 9s linear infinite; }
+      .l2 { animation: cycle 9s linear infinite; animation-delay: -3s; }
+      .l3 { animation: cycle 9s linear infinite; animation-delay: -6s; }
+
+      @keyframes draw {
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes cycle {
+        0%, 3%   { opacity: 0; }
+        6%, 27%  { opacity: 1; }
+        30%, 100% { opacity: 0; }
+      }
+    </style>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="900" height="200" rx="14" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect class="bg" width="900" height="200" />
+    <rect class="border" x="1" y="1" width="898" height="198" rx="13" />
+
+    <text class="name" x="40" y="72">Oujie Wu</text>
+    <path class="underline" d="M40 86 H 232" />
+
+    <text class="prompt" x="41" y="128">&gt;</text>
+    <g>
+      <text class="line l1" x="66" y="128">full-stack engineer, AI-integrated systems</text>
+      <text class="line l2" x="66" y="128">FastAPI · React · LLMs · cloud infra</text>
+      <text class="line l3" x="66" y="128">final-year CS student, open to junior roles</text>
+    </g>
+
+    <text x="41" y="168" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#64748b">Lisboa, Portugal</text>
+  </g>
+</svg>
