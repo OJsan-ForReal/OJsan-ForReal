@@ -37,6 +37,16 @@ routing (OSRM/Nominatim), Stripe payments, deployed on GCP with an
 active/passive Nginx + keepalived (VRRP) setup for high availability.
 *Academic project, private repo.*
 
+**UrbanWheels (Java/Spring Boot version)** — unrelated project that happens
+to share the same name, from a different course (Construção de Sistemas de
+Software). A Thymeleaf admin web UI and a JavaFX desktop client on top of a
+layered (Controller/Service/Repository) Spring Boot backend, plus
+integration with a separate **WeatherWise** service — its own Spring Boot
+REST API serving weather forecasts by location and date from existing data
+— called from the JavaFX client to show a forecast when reserving a bike.
+Both services Dockerized. *Academic group project (max 3 students), hosted
+on the university's GitLab, not public.*
+
 **[Grade Prediction](https://github.com/OJsan-ForReal/FAA-G22)** —
 Classification/regression pipelines (scikit-learn) predicting exam outcomes
 from behavioral data; compared 5 feature-selection methods across 5 model
